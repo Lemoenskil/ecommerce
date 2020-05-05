@@ -1,2 +1,6 @@
 *.sqlite3
 env.py
+__pycach__
+static/
+media/
+.~c9*
