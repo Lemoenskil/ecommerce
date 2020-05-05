@@ -1,7 +1,8 @@
 arrow==0.15.5
+asgiref==3.2.7
 asn1crypto==0.24.0
 astroid==1.6.6
-attrs==17.4.0
+attrs==19.3.0
 Automat==0.6.0
 aws-lambda-builders==0.6.0
 aws-sam-cli==0.38.0
@@ -13,6 +14,7 @@ blinker==1.4
 boto3==1.12.14
 botocore==1.15.25
 certifi==2018.1.18
+cffi==1.14.0
 chardet==3.0.4
 chevron==0.13.1
 Click==7.0
@@ -22,12 +24,12 @@ command-not-found==0.3
 configobj==5.0.6
 constantly==15.1.0
 cookiecutter==1.6.0
-cryptography==2.1.4
+cryptography==2.9.2
 dateparser==0.7.2
 decorator==4.4.2
 distro-info===0.18ubuntu0.18.04.1
 dj-database-url==0.5.0
-Django==1.11.24
+Django==3.0.6
 django-forms-bootstrap==3.1.0
 django-storages==1.9.1
 docker==4.2.0
@@ -47,7 +49,7 @@ ipython-genutils==0.2.0
 isort==4.3.21
 itsdangerous==1.1.0
 jedi==0.11.1
-Jinja2==2.10
+Jinja2==2.11.2
 jinja2-time==0.2.0
 jmespath==0.9.5
 jsonpatch==1.16
@@ -73,9 +75,11 @@ psycopg2==2.7.4
 ptyprocess==0.6.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.1
+pycparser==2.20
 pycrypto==2.6.1
 Pygments==2.6.1
 pygobject==3.26.1
+PyHamcrest==2.0.2
 PyJWT==1.5.3
 pylint==1.8.1
 pylint-django==0.8.0
@@ -88,7 +92,7 @@ python-apt==1.6.5+ubuntu0.2
 python-dateutil==2.8.0
 python-debian==0.1.32
 pytz==2019.3
-pyxdg==0.25
+pyxdg==0.26
 PyYAML==5.3.1
 regex==2020.2.20
 requests==2.22.0
@@ -99,13 +103,14 @@ SecretStorage==2.3.1
 serverlessrepo==0.1.9
 service-identity==16.0.0
 six==1.14.0
+sqlparse==0.3.1
 ssh-import-id==5.7
 stevedore==1.32.0
 stripe==2.46.0
 systemd-python==234
 tomlkit==0.5.8
 traitlets==4.3.3
-Twisted==17.9.0
+Twisted==20.3.0
 tzlocal==2.0.0
 ufw==0.36
 unattended-upgrades==0.1
@@ -119,4 +124,4 @@ Werkzeug==1.0.0
 whichcraft==0.6.1
 wrapt==1.12.1
 zipp==3.1.0
-zope.interface==4.3.2
+zope.interface==5.1.0
